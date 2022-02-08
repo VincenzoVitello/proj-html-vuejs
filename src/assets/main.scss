@@ -1,0 +1,132 @@
+@import "vars.scss";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+.ms_main_container{
+    padding: 100px 0;
+}
+.experience{
+    display: flex;
+    justify-content: center;
+}
+.exp_sushi_text{
+    width: 400px;
+    margin-right: 100px;
+    p{
+        margin: 30px 0;
+    }
+}
+.black_title{
+    color: black;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+}
+.signature{
+    img{
+        max-width: 200px;
+        object-fit: contain;
+    }
+}
+.exp_sushi_img{
+    img{
+        max-width: 400px;
+        object-fit: contain;
+    }
+}
+.infos{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    margin: auto;
+}
+.info_card{
+    width: 300px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    hr{
+        width: 100px;
+    }
+    img{
+        max-width: 100px;
+    }
+    .info_card_title{
+        text-transform: uppercase;
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+    }
+}
+.info_button{
+    border: 1px solid black;
+    padding: 10px 20px;
+    &:hover{
+        cursor: pointer;
+        background-color: black;
+        color: white;
+    }
+}
+.exp_sushi_img{
+    height: 550px;
+    width: 400px;
+    background-image: url("../assets/layout-images/images/info22x.jpg");
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 45px;
+}
+.main_jumbo_one{
+    display: flex;
+    height: 100vh;
+}
+.jumbo_right_img{
+    width: 60%;
+    height: 100vh;
+ img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    }
+}
+.jumbo_left{
+    background-color: $mainColor;
+    height: 100%;
+    width: 40%;
+}
+.header_text_container{
+    display: flex;
+    justify-content: center;
+}
+.header_text{
+    color: white;
+    width: 500px;
+    p{
+        margin: 30px 0;
+    }
+}
+.white_title{
+    color: white;
+    text-transform: uppercase;
+    font-size: 55px;
+    font-family: 'Roboto', sans-serif;
+}
+.menu_button{
+    border: 1px solid white;
+    padding: 10px 20px;
+    width: 160px;
+    text-align: center;
+    &:hover{
+        background-color: white;
+        color: black;
+        cursor: pointer;
+    }
+}
+.jumbo_left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

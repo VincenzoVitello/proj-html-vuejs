@@ -23,7 +23,7 @@
               <li>Our Menu</li>
               <li>Take out <span>new</span></li>
               <li>Bulletin</li>
-              <li>Reservation</li>
+              <li>Reservations</li>
               <li><i class="fa-solid fa-cart-arrow-down"></i></li>
           </ul>
       </div>
