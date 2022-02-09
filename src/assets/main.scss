@@ -1,5 +1,6 @@
 @import "vars.scss";
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@500;700&display=swap');
 .ms_main_container{
     padding: 100px 0;
 }
@@ -12,6 +13,7 @@
     margin-right: 100px;
     p{
         margin: 30px 0;
+        
     }
 }
 .black_title{
@@ -27,6 +29,9 @@
     }
 }
 .exp_sushi_img{
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px black;
     img{
         max-width: 400px;
         object-fit: contain;
@@ -61,6 +66,10 @@
 .info_button{
     border: 1px solid black;
     padding: 10px 20px;
+    font-size: 12px;
+    width: 180px;
+    text-align: center;
+    text-transform: uppercase;
     &:hover{
         cursor: pointer;
         background-color: black;
@@ -117,8 +126,10 @@
 .menu_button{
     border: 1px solid white;
     padding: 10px 20px;
-    width: 160px;
+    font-size: 12px;
+    width: 180px;
     text-align: center;
+    text-transform: uppercase;
     &:hover{
         background-color: white;
         color: black;
@@ -130,3 +141,94 @@
     justify-content: center;
     align-items: center;
 }
+ //SEZIONE REVIEW
+.customer_review{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+
+    .critics_title{
+    font-family: 'Dancing Script', cursive;
+    padding: 30px;
+    font-size: 35px;
+    color: $secondaryGrey;
+    }
+    hr{
+        width: 100px;
+        margin: auto;
+        color: $mainGrey;
+    }
+
+}
+.ms_nyt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 1000px;
+    background-color: $mainColor;
+    .nyt_img{
+    width: 50%;
+        img{
+            max-width: 100%;
+            object-fit: contain;
+        }
+    }
+}
+.nyt_review{
+    width: 50%;
+    color: white;
+    .nyt_review_container{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin: auto;
+        p{
+            padding: 15px 0;
+        }
+    }
+}
+.journals_reviews{
+    margin: 50px auto;
+    background-color: white;
+    justify-content: space-between;
+}
+.journal_right, .journal_left{
+    color: white;
+    width: 48%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    p{
+        padding: 15px;
+    }
+    div{
+        background-color: transparent;
+    }
+}
+.journal_right{
+    background-image: url('../assets/layout-images/images/info52x.jpg');
+    background-size: cover;
+}
+.journal_left{
+    background-image: url('../assets/layout-images/images/info12x.jpg');
+    background-size: cover;
+}
+.jumbotron_bottom_main{
+    background-image: url('../assets/layout-images/images/page52x.jpg');
+    background-size: cover;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: white;
+    p{
+        margin-bottom: 30px;
+        text-transform: uppercase;
+        text-shadow: 1px 1px black;
+    }
+}
+

@@ -53,7 +53,55 @@
                 </div>
           </div>
         </div>
+    </div>
+    <section class="customer_review">
+      <div>
+        <h2 class="critics_title">What critics say about us</h2>
+        <hr>
       </div>
+    </section>
+    <div class="ms_nyt">
+        <div class="nyt_img">
+          <img src="../assets/layout-images/images/blog72x.jpg" alt="">
+        </div>
+        <div class="nyt_review">
+          <div class="nyt_review_container">
+            <p>Maggie Stuart</p>
+            <p class="white_title">New York Times</p>
+            <p>&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae accusamus asperiores voluptatem autem, eveniet ut hic, iusto eius architecto nihil sit minima, fuga vel magni.</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit sapiente mollitia, ullam excepturi iusto magnam debitis. Omnis iusto est neque architecto.</p>
+            <div class="menu_button">read full article</div>
+          </div>
+        </div>
+      </div>
+    <div class="journals_reviews ms_nyt">
+    
+      <div class="journal_right">
+            <div class="nyt_review_container">
+              <p>Maggie Stuart</p>
+              <p class="white_title">New York Times</p>
+              <p>&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae accusamus asperiores voluptatem autem, eveniet ut hic, iusto eius architecto nihil sit minima, fuga vel magni.</p>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit sapiente mollitia, ullam excepturi iusto magnam debitis. Omnis iusto est neque architecto.</p>
+              <div class="menu_button">read full article</div>
+            </div>
+      </div>
+
+      <div class="journal_left">
+            <div class="nyt_review_container">
+              <p>Maggie Stuart</p>
+              <p class="white_title">New York Times</p>
+              <p>&#9733;&#9733;&#9733;&#9733;&#9733;</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae accusamus asperiores voluptatem autem, eveniet ut hic, iusto eius architecto nihil sit minima, fuga vel magni.</p>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit sapiente mollitia, ullam excepturi iusto magnam debitis. Omnis iusto est neque architecto.</p>
+              <div class="menu_button">read full article</div>
+            </div>
+      </div>
+    </div>
+    <div class="jumbotron_bottom_main">
+      <p>Kung Pao Chicken - $32</p>
+    </div>
   </div>
 </template>
 
