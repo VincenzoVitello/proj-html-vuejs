@@ -13,7 +13,6 @@
     margin-right: 100px;
     p{
         margin: 30px 0;
-        
     }
 }
 .black_title{
@@ -32,9 +31,21 @@
     margin-bottom: 30px;
     text-transform: uppercase;
     text-shadow: 1px 1px black;
+    position: relative;
+    &::after{
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: rgba($color: #000000, $alpha: 0.4);
+        transform: translate(0px, 45px);
+    }
     img{
         max-width: 400px;
         object-fit: contain;
+    }
+    p{
+        z-index: 999;
     }
 }
 .infos{
@@ -335,4 +346,28 @@
 }
 .overlay{
     z-index: 3;
+}
+.braised_abalone_bg{
+    background-image: url('../assets/layout-images/images/hero42x.jpg');
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.header_text.abalone{
+    background-color: $mainColor;
+    padding: 50px;
+    margin-left: 200px;
+    hr{
+        width: 100px;
+    }
+    .abalone_price_cont{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        span{
+            margin: 30px 0;
+        }
+    }
 }

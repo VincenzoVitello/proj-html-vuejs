@@ -203,6 +203,22 @@
         </ul>
       </div>
     </div>
+    <div class="braised_abalone_bg">
+      <div class="braised_abalone_menu">
+        
+                
+                <div class="header_text abalone">
+                    <div class="abalone_price_cont">
+                      <p class="white_title">Braised Albalone</p>
+                      <span>$52</span>
+                    </div>
+                    <hr>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi commodi dolores odit sit eaque! Aperiam totam vero mollitia maxime unde ipsa, numquam dolores? Iste nulla velit ipsa in consectetur officiis.</p>
+                    <div class="menu_button">view in the menu</div>
+                </div>
+          
+      </div>
+    </div>
   </div>
 </template>
 
